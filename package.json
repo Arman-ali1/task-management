@@ -11,6 +11,6 @@
 		"client": "yarn --cwd client dev",
 		"server": " nodemon  server/server.js",
 		"dev": "concurrently \"yarn server\" \"yarn client\"",
-		"build": "vite build"
+		"build": "npm install"
 	}
 }
