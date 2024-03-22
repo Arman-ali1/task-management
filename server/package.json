@@ -13,5 +13,10 @@
     "mongoose": "^8.2.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon server.js",
+    "build": "vite build"
   }
 }
